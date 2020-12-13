@@ -18,6 +18,5 @@ res.should.have.status(404)
        const res = await chai.request(server).get('/alex/article');
        res.should.have.status(200)
        res.body.should.have.property("success")
-   })
-
-})
+   });
+});

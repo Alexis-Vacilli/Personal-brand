@@ -7,6 +7,7 @@
     "start": "node ./node_modules/.bin/babel-node index.js",
     "start:dev": "nodemon --exec babel-node index.js",
     "lint": "eslint",
+    "lint-fix": "eslint . --fix",
     "test": "NODE_ENV=test mocha  --timeout 10000000 ./test/**.test.js --require @babel/register --exit",
     "cover": "nyc --reporter=html --reporter=text npm test"
   },

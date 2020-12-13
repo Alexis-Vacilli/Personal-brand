@@ -1,0 +1,7 @@
+cashe: npm
+
+env: 
+ - PORT: 4000
+install: "npm ci"
+language: node_js
+node_js: "12.16.3"

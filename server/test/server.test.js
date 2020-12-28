@@ -19,7 +19,7 @@ const testPost =  {
     description: "hey this must work"
 }
 describe('test/server', async () => {
-  it('should not found this route', async () => {
+  it('should not find this route', async () => {
       const res = await chai.request(server).get('/alexis/vacili')
       res.should.have.status(404)
   })
